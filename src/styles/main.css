@@ -1,0 +1,57 @@
+ul {
+    list-style-type: none;
+}
+
+li a{
+    float: left;
+    padding: 14px 16px;
+    display: block;
+    color: #aaadb2;
+    font-size: 26px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.buttons {
+    float: right;
+}
+
+h1{
+    font-size: 45px;
+    color: #1b2432;
+    padding-top: 100px;
+}
+
+p{
+    font-size: 30px;
+    color: #676d76;
+}
+
+h1, p{
+    text-align: center;
+}
+
+button {
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    border: 2px solid #6a67ce;
+}
+
+.signIn{
+    background-color: white;
+    color: #6a67ce;
+}
+
+.signUp{
+    background-color: #6a67ce;
+    color: white;
+}
+
+form {
+    color: #d1d2db;
+}
