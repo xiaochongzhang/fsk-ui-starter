@@ -1,0 +1,13 @@
+.wording
+{
+    color: gray;
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+.header-bar{
+    border-bottom: 1px solid gray;
+}
+.sign-in-btn{
+    float: right;
+}
