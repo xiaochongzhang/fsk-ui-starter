@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+
+.logo > * {
+    display: inline-block;
+}
+
+.menu > * {
+    display: inline-block;
+    font-size: 30px;
+    color: #aaadb2;
+    margin: 0 10px;
+}
+
+.sign {
+    display: inline-block;
+}
+
+.content {
+    text-align: center;
+
+    h1 {
+        color: #1b2432;
+    }
+
+    p {
+        color: #676d76
+    }
+
+    input {
+        color: #d1d2db
+    }
+}
+
+button {
+    color: #6a67ce;
+}
