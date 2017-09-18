@@ -1,0 +1,9 @@
+html {font-family: Gill Sans Extrabold, sans-serif;}
+#welcome header .logo { background-image:url('images/logo.png'); width: 56; height: 52; display: inline-block; }
+#welcome header { border-top: 1px solid #cccccc; border-bottom: 1px solid #cccccc; }
+#welcome header .menu { display: inline-block; }
+#welcome header .account { display: relative; float: right; }
+#welcome #content { display: block; text-align: center; width: 640px; margin: 0 auto; }
+#welcome #content h1 { font-size: 3em; }
+#welcome #content h2 { font-size: 1.5em; }
+#welcome #content .useremail-input { border: 1px solid #cccccc; border-radius: 4px; width: 400px; height: 3em; }
