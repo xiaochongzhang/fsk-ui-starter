@@ -1,0 +1,16 @@
+.logo span {
+    font-size: 80px;
+    font-family: sans-serif;
+    line-height: 50px;
+    display: inline-block;
+}
+
+img {
+    height: 50px;
+}
+
+.middle {
+    display: inline-block;
+    color: gray;
+    margin-left: 90px;
+}
