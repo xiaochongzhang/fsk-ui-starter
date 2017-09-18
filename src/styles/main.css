@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    background: url("../images/logo.png") no-repeat;
+    width: 56px;
+    height: 56px;
+    display: inline-block;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.button-group {
+    display: inline-block;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
