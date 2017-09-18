@@ -1,0 +1,21 @@
+.main-title{
+    color: #1b2432;
+}
+
+.main-text{
+    color: #676d76;
+    text-align: center;
+}
+
+.text-content{
+    color: #d1d2db;
+    text-align: center;
+    font-size: 18pt;
+}
+
+.submit-content{
+    text-align: center;
+}
+.submit-btn{
+    background: #6a67ce;
+}
