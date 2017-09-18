@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #d1d2db;
+    padding: 0 10px;
+}
+
+.header .left {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.header .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header .left .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header .left .logo img {
+    display: block;
+    height: 30px;
+}
+
+.header .left .logo .text {
+    color: #1b2432;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0 80px 0 5px;
+}
+
+.header .left .link {
+    color: #aaadb2;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.header .right .btn {
+    font-size: 18px;
+    padding: 6px 15px;
+    margin-left: 10px;
+    border: 2px solid #6a67ce;
+    border-radius: 3px;
+}
+
+.header .right .sign-in {
+    color: #6a67ce;
+    background-color: #ffffff;
+}
+
+.header .right .sign-up {
+    color: #ffffff;
+    background-color: #6a67ce;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body .tip {
+    color: #1b2432;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.body .msg {
+    color: #676d76;
+    font-size: 24px;
+    margin-top: 15px;
+    width: 400px;
+    text-align: center;
+}
+
+.body .sign-up {
+    height: 45px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.body .sign-up input {
+    width: 240px;
+    font-size: 15px;
+    border: 1px solid #d1d2db;
+    border-radius: 2px;
+    margin-right: 10px;
+    padding-left: 10px;
+
+}
+
+input::-webkit-input-placeholder {
+  color: #d1d2db;
+}
+
+.body .sign-up .btn {
+    color: #ffffff;
+    background-color: #6a67ce;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 2px solid #6a67ce;
+    border-radius: 3px;
+}
