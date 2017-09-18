@@ -1,0 +1,55 @@
+.float-right{
+    float: right;
+    display: block;
+}
+
+.border-bottom{
+    border-bottom: 1px;
+    color: gray;
+}
+
+.padding{
+    padding: 10px;
+}
+
+.width{
+    width: 40%;
+}
+
+.button{
+    float: right;
+    margin: 20px 5px;
+    vertical-align: middle;
+    color: #6a67ce;
+    background: white;
+    width: 100px;
+    height: 30px;
+}
+
+.title{
+    text-align: center;
+    color: #1b2432;
+}
+
+.text{
+    color:#676d76;
+    text-align: center;
+}
+
+.input-email{
+    text-align: center;
+    height: 50px;
+    border-color: #d1d2db;
+}
+
+.center{
+    text-align: center;
+}
+
+.center-button{
+    color: #6a67ce;
+}
+
+#button:hover {
+    background-color: #6a67ce;
+}
