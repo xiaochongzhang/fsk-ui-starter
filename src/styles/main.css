@@ -1,0 +1,21 @@
+.title h1{
+    font-size: 3em;
+}
+
+.logoName{
+
+ font-size: 2em;
+}
+
+.logoItem{
+    text-align: justify;
+    color: #aaadb2;
+}
+
+.logo button{
+    color: #6a67ce;
+}
+
+.content{
+   text-align: center;
+}
