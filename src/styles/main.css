@@ -1,0 +1,14 @@
+.title {
+    text-align: center;
+    p {
+        width: 200px;
+    }
+}
+.action {
+    text-align: center;
+    button {
+        color: blue;
+    }
+}
+
+
