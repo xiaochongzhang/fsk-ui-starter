@@ -1,0 +1,17 @@
+.product-name{
+    font-size: 100px;
+    font-family: monospace;
+}
+
+.content{
+    text-align: center;
+}
+
+.sign-in{
+    float: right;
+}
+
+.sign-up{
+    float: right;
+}
+
