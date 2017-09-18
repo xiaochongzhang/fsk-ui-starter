@@ -1,0 +1,80 @@
+html {
+    font-family: Arial;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 22px;
+}
+h1 {
+    font-size: 22px;
+    margin: 15px;
+}
+p{
+
+}
+nav {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px 100px;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    height: 60px;
+}
+#brand{
+    padding-left: 80px;
+    font-size: 26px;
+    font-weight: 600;
+    float:left;
+    line-height: 42px;
+    margin-right: 40px;
+}
+#brand img {
+    float: left;
+    margin-right: 20px;
+}
+nav li {
+    float: left;
+    color: #666;
+    list-style: none;
+    font-size: 18px;
+    line-height: 42px;
+    margin-right: 50px;
+}
+#login {
+    float: right;
+}
+.btn{
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    box-shadow: none;
+    cursor: pointer;
+}
+.btn-primary {
+    background-color: #6A5ACD;
+    color: #fff;
+    border-color: #6A5ACD
+}
+.btn-primary-outline {
+    background-color: #fff;
+    color: #6A5ACD;
+    border-color: #6A5ACD;
+}
+.btn-lg {
+    padding: 9px 10px;
+}
+.container {
+    text-align: center;
+    padding: 50px;
+}
+form{
+    margin-top:40px;
+}
+form input{
+    width: 250px;
+    height: 42px;
+    font-size: 18px;
+    padding-left: 20px;
+}
