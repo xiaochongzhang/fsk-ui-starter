@@ -1,22 +1,97 @@
-.top{
-     display: flex;
-     flex-direction: row;
-    align-items: center;
-
- }
-
-.logo {
-    flex: 0 1 30%;
+body {
+    font-family: Verdana, Arial, sans-serif;
+}
+.top {
+    height: 70px;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
+    border-bottom: #aaadb2 thin solid;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     font-size: 3em;
+    width: 300px;
+    height: 100%;
+    flex: none;
 }
 
-.tabs{
-    flex: 0 1 60%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: burlywood;
+.logo-img {
+    margin-right: 20px;
 }
+
+.flex-menu-group-and-button-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: auto;
+}
+
+.menu-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.menu {
+    margin-right: 15px;
+    color: #aaadb2;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+}
+
+input[type=button] {
+    font-family: Verdana, Arial, sans-serif;
+    margin-left: 20px;
+    height: 36px;
+    border-color: #6a67ce;
+    color: #6a67ce;
+    padding: 0px 12px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+input[type=button]:hover {
+    color: white;
+    background-color: #6a67ce;
+}
+
+.main-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title {
+    color: #1b2432;
+}
+
+.main-text {
+    font-size: 1.2em;
+    color:#676d76;
+    text-align:center;
+}
+
+input[type=text] {
+    font-family: Verdana, Arial, sans-serif;
+    height: 32px;
+    border-color: #d1d2db;
+    color: #d1d2db;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.button-main-area {
+    height: 42px;
+    padding: 0px 14px;
+}
+
+
