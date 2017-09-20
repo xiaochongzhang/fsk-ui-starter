@@ -3,28 +3,27 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Home</title>
-
         <link rel="stylesheet" href="styles/main.css">
 	</head>
 	<body>
-		<div >
-			<img src=".\images\logo.png">
-			<span class="product-name"> asa </span>
-			<div>
-				<button>PRODUCT</button>
-				<button>CUSTOMERS</button>
-			</div>
-			<div>
-				<button class="sign-up">Sign Up Free</button>
-				<button class="sign-in">Sign In</button>
-			</div>
+		<div class="header">
+			<img class="inline" src=".\images\logo.png">
+			<span class="product-name inline"> asa </span>
+			<ul class="menu inline">
+				<li>PRODUCT</li>
+				<li>CUSTOMERS</li>
+			</ul>
+			<button class="sign-up-free-common sign-up-free-in-header inline">Sign Up Free</button>
+			<button class="sign-in inline">Sign In</button>
 		</div>
 		<div class="content">
-			<h1>Move work forward</h1>
-			<span>Asa is the easiest way for teams to track their work - and get results.</span>
+			<div class="title">Move work forward</div>
+			<div class="comments">
+				<span>Asa is the easiest way for teams to track their work - and get results.</span>
+			</div>
 			<form>
-				<input>
-				<button>Sign Up Free</button>
+				<input class="email-input" placeholder="name@company.com">
+				<button class="sign-up-free-common sign-up-free-in-content">Sign Up Free</button>
 			</form>
 		</div>
 	</body>
