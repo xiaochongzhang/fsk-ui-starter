@@ -81,7 +81,9 @@ body{
 
 .content .message p{
     color: #676d76;
+    width: 350px;
     font-size: 20px;
+    padding-left: 650px;
 }
 
 .content .user-input{
