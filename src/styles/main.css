@@ -1,0 +1,115 @@
+body{
+    margin: 0 auto;
+    height: 992px;
+}
+
+.menu{
+    margin-top: 40px;
+    height: 6%;
+    border-bottom: 1px solid #d1d2db;
+}
+
+.menu .menu-left{
+    float: left;
+    width: 60%;
+}
+
+.menu-left img{
+    float: left;
+    width: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.menu-left span{
+    float: left;
+    color: #1b2432;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.menu-left .link{
+    float: left;
+    padding-left: 70px;
+    padding-top: 25px;
+    color: #aaadb2;
+    font-size: 12px;
+}
+
+.menu-left .link a{
+    float: left;
+    padding-right: 30px;
+}
+
+.menu .menu-right{
+    float: right;
+    width: 20%;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.menu-right button{
+    margin-left: 10px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    border: 2px solid #6a67ce;
+}
+.menu-right .sign-in{
+    color: #6a67ce;
+    background-color: #ffffff;
+}
+
+.menu-right .sign-up{
+    color: #ffffff;
+    background-color: #6a67ce;
+}
+
+.content{
+    text-align: center;
+    margin-top: 80px;
+    height: 60%;
+}
+
+.content .message h1{
+    color: #1b2432;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content .message p{
+    color: #676d76;
+    width: 350px;
+    font-size: 20px;
+    padding-left: 40%;
+}
+
+.content .user-input{
+    margin-top: 40px;
+}
+
+.content .user-input input{
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid #d1d2db;
+    border-radius: 3px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+input::-webkit-input-placeholder {
+    color: #d1d2db;
+}
+
+.content .user-input .sign-up{
+    height: 30px;
+    font-size: 15px;
+    border: 2px solid #6a67ce;
+    border-radius: 3px;
+    padding-left: 5px;
+    color: #ffffff;
+    background-color: #6a67ce;
+}
