@@ -30,6 +30,7 @@
     line-height: 80px;
     width:100px;
     text-align: center;
+    font-size:20px;
 }
 .header .button_group {
     float: right;
@@ -41,21 +42,76 @@
     height:38px;
     margin-left:10px;
     border:1px solid #6a67ce;
-    border-radius: 5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
 
     padding:5px 10px;
 }
 
-.header .button_group .sign-in {
+.sign-in {
     color: #6a67ce;
     background:#ffffff;
 }
 
-.header .button_group .sign-up {
+.sign-up {
     background: #6a67ce;
     color: #fff;
 
 }
 .main {
     width:100%;
+}
+.main .title {
+    text-align: center;
+    font-size: 100px;
+    margin-top:72px;
+    color: #1b2432;
+}
+.main p{
+    text-align: center;
+    color:#676d76;
+    font-size: 36px;
+}
+.main form {
+    text-align: center;
+}
+
+.main form input{
+    width:360px;
+    height:50px;
+    margin-top: 50px;
+    padding-left: 15px;
+    font-size: 20px;
+
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    border:1px solid #d1d2db;
+    color: #676d76;
+}
+
+::-webkit-input-placeholder {
+    color:    #d1d2db;
+}
+:-moz-placeholder {
+    color:    #d1d2db;
+}
+::-moz-placeholder {
+    color:    #d1d2db;
+}
+:-ms-input-placeholder {
+    color:    #d1d2db;
+}
+
+
+.main form button {
+    width:170px;
+    height:50px;
+    border:1px solid;
+    font-size:20px;
+
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
 }
